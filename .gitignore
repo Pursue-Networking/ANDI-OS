@@ -1,0 +1,12 @@
+# Gmail OAuth credentials (never commit)
+gcp-oauth.keys.json
+credentials.json
+.gmail-mcp/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# LinkedIn session data
+linkedin_session/

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "gmail": {
+      "command": "npx",
+      "args": ["-y", "@gongrzhe/server-gmail-autoauth-mcp"]
+    },
+    "linkedin": {
+      "command": "uvx",
+      "args": ["mcp-server-linkedin@latest"]
+    }
+  }
+}
