@@ -1,0 +1,76 @@
+# SECRETS AND CONFIG
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials.json
+token.json
+service-account*.json
+
+# AWS
+.aws/
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# PYTHON
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+*.so
+.Python
+
+# VIRTUAL ENVIRONMENTS
+.venv/
+venv/
+env/
+ENV/
+.virtualenv/
+
+# PACKAGING AND TOOLING
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+pip-log.txt
+
+# LITELLM
+litellm_uuid.txt
+.litellm_cache/
+
+# FASTAPI / RUNTIME
+*.log
+logs/
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+# DOCKER
+docker-compose.override.yml
+*.env.docker
+
+# JUPYTER / NOTEBOOKS
+.ipynb_checkpoints/
+
+# EDITORS
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

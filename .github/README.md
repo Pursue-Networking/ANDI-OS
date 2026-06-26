@@ -3,7 +3,7 @@
 </p>
 
 
-## Project Ownership
+## PROJECT OWNERSHIP
 
 This project is being developed under the supervision of **Soham Kinhikar**.
 
@@ -15,7 +15,7 @@ This repository is intended strictly for internal development and approved colla
 
 ---
 
-## Access Restriction
+## ACCESS RESTRICTION
 
 Access to this repository is restricted to:
 
@@ -31,7 +31,7 @@ Unauthorized access, redistribution, replication, or disclosure of the project a
 
 ---
 
-## Repository Governance
+## REPOSITORY GOVERNANCE
 
 This repository follows milestone-based development.
 
@@ -41,7 +41,7 @@ Milestone documents are maintained under: `/docs/milestones/`
 
 ---
 
-## Milestone Documentation
+## MILESTONE DOCUMENTATION
 
 | Milestone   | Title                                |
 | ----------- | ------------------------------------ |
@@ -58,7 +58,7 @@ Detailed documentation is maintained in the milestone files.
 
 ---
 
-## Code Ownership
+## CODE OWNERSHIP
 
 This repository follows strict ownership rules.
 
@@ -79,7 +79,7 @@ Refer: `CODEOWNERS`
 
 ---
 
-## Transfer of Ownership
+## TRANSFER OF OWNERSHIP
 
 Upon successful completion of the agreed project scope and delivery acceptance, ownership of the code held by **Pursue Networking** will be transferred per the agreed handover terms, along with:
 
@@ -93,7 +93,7 @@ Upon successful completion of the agreed project scope and delivery acceptance, 
 
 ---
 
-## Confidentiality
+## CONFIDENTIALITY
 
 This repository contains proprietary implementation details and private business logic.
 
@@ -101,6 +101,12 @@ Public release, open-source distribution, or third-party usage is not permitted 
 
 ---
 
-## Current Status
+## LICENSE
+
+Proprietary and confidential. All rights reserved by **Pursue Networking** under **Soham Kinhikar**. See [`LICENSE`](../LICENSE).
+
+---
+
+## CURRENT STATUS
 
 Active Development (Private)
