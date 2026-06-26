@@ -37,11 +37,7 @@ This repository follows milestone-based development.
 
 Implementation is divided into structured milestones for controlled execution, validation, and delivery.
 
-Milestone documents are maintained under:
-
-```bash
-/docs/milestones/
-```
+Milestone documents are maintained under: `/docs/milestones/`
 
 ---
 
@@ -79,11 +75,7 @@ Supporting contributors:
 
 All production merges, architecture decisions, and milestone approvals remain under supervising authority.
 
-Refer:
-
-```bash
-/CODEOWNERS
-```
+Refer: `CODEOWNERS`
 
 ---
 
