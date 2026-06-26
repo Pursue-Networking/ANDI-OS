@@ -1,0 +1,81 @@
+{
+  "server": "@gongrzhe/server-gmail-autoauth-mcp",
+  "tools": [
+    {
+      "name": "send_email",
+      "description": "Sends a new email. Supports plain text, HTML, multipart/alternative, CC/BCC, reply threading, and file attachments via local file paths."
+    },
+    {
+      "name": "draft_email",
+      "description": "Draft a new email without sending it. Supports the same fields as send_email, including attachments."
+    },
+    {
+      "name": "read_email",
+      "description": "Retrieves the content of a specific email by message ID, including headers, body (plain/HTML), and attachment metadata (filename, type, size, download ID)."
+    },
+    {
+      "name": "search_emails",
+      "description": "Searches for emails using Gmail search syntax (e.g. from:sender@example.com, in:inbox, has:attachment, after:2024/01/01)."
+    },
+    {
+      "name": "modify_email",
+      "description": "Modifies email labels — add or remove labels to move emails between folders, archive, mark read/unread, etc."
+    },
+    {
+      "name": "delete_email",
+      "description": "Permanently deletes an email by message ID."
+    },
+    {
+      "name": "list_email_labels",
+      "description": "Retrieves all available Gmail labels (system and user-defined)."
+    },
+    {
+      "name": "batch_modify_emails",
+      "description": "Modifies labels for multiple emails in efficient batches (default batch size 50)."
+    },
+    {
+      "name": "batch_delete_emails",
+      "description": "Permanently deletes multiple emails in efficient batches (default batch size 50)."
+    },
+    {
+      "name": "create_label",
+      "description": "Creates a new Gmail label with optional message-list and label-list visibility settings."
+    },
+    {
+      "name": "update_label",
+      "description": "Updates an existing Gmail label (rename or change visibility settings)."
+    },
+    {
+      "name": "delete_label",
+      "description": "Deletes a Gmail label by label ID."
+    },
+    {
+      "name": "get_or_create_label",
+      "description": "Gets an existing label by name or creates it if it doesn't exist."
+    },
+    {
+      "name": "create_filter",
+      "description": "Creates a new Gmail filter with custom criteria (from, to, subject, query, attachments, size) and actions (add/remove labels, forward)."
+    },
+    {
+      "name": "list_filters",
+      "description": "Retrieves all Gmail filters."
+    },
+    {
+      "name": "get_filter",
+      "description": "Gets details of a specific Gmail filter by filter ID."
+    },
+    {
+      "name": "delete_filter",
+      "description": "Deletes a Gmail filter by filter ID."
+    },
+    {
+      "name": "create_filter_from_template",
+      "description": "Creates a filter using a pre-defined template: fromSender, withSubject, withAttachments, largeEmails, containingText, or mailingList."
+    },
+    {
+      "name": "download_attachment",
+      "description": "Downloads an email attachment to a local directory. Requires messageId and attachmentId from read_email output."
+    }
+  ]
+}

@@ -26,6 +26,7 @@ build/
 dist/
 *.so
 .Python
+*.pyc
 
 # VIRTUAL ENVIRONMENTS
 .venv/
@@ -74,3 +75,11 @@ docker-compose.override.yml
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# GMAIL OAUTH CREDENTIALS (NEVER COMMIT)
+gcp-oauth.keys.json
+credentials.json
+.gmail-mcp/
+
+# LINKEDIN OAUTH CREDENTIALS (NEVER COMMIT)
+linkedin_session/
