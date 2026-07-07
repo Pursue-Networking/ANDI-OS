@@ -83,3 +83,5 @@ credentials.json
 
 # LINKEDIN OAUTH CREDENTIALS (NEVER COMMIT)
 linkedin_session/
+# REFERENCE CODE FROM KOLIN (never commit)
+ABSOLV/
