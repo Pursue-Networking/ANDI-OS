@@ -9,7 +9,7 @@ services:
       POSTGRES_PASSWORD: andi
       POSTGRES_DB: andi
     ports:
-      - "5432:5432"
+      - "5433:5432"  # 5432 is taken by another local stack
     volumes:
       - andi_pgdata:/var/lib/postgresql/data
       - ./backend/db/schema.sql:/docker-entrypoint-initdb.d/01_schema.sql:ro
@@ -24,7 +24,7 @@ services:
     image: redis:7-alpine
     container_name: andi-redis
     ports:
-      - "6379:6379"
+      - "6380:6379"  # 6379 is taken by another local stack
     healthcheck:
       test: ["CMD", "redis-cli", "ping"]
       interval: 5s
